@@ -2,9 +2,12 @@
   "name": "resale_back",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "16.13.0"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +17,8 @@
     "express": "^4.17.1",
     "joi": "^17.5.0",
     "mongodb": "^4.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
